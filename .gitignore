@@ -1,25 +1,42 @@
-# Python-related files
+# Ignore Python bytecode
+*.pyc
 __pycache__/
-*.py[cod]
+
+# Ignore environment files
+.env
 venv/
-.env/
+env/
 
-# macOS
+# Ignore system files
 .DS_Store
-
-# Windows
 Thumbs.db
-Desktop.ini
 
-# Office temp files
-~$*.pptx
-
-# IDE specific files
-.vscode/
-.idea/
-
-# Backup/Temp
-*.bak
-*.swp
-*.tmp
+# Ignore log files
 *.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore compiled files
+*.o
+*.a
+*.so
+
+# Ignore any compiled binaries
+*.exe
+*.out
+
+# Ignore Bash history
+.bash_history
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore coverage reports
+.coverage
+*.cover
+
+# Ignore dependency directories
+node_modules/
+
