@@ -1,0 +1,25 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+venv/
+.env/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Office temp files
+~$*.pptx
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Backup/Temp
+*.bak
+*.swp
+*.tmp
+*.log
